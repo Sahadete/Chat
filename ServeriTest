@@ -1,0 +1,11 @@
+
+import javax.swing.JFrame;
+
+public class ServeriTest {
+	public static void main(String args[]) {
+		Serveri s = new Serveri();
+		s.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		s.fillo();
+	}
+}
+
