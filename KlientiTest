@@ -1,0 +1,10 @@
+
+import javax.swing.JFrame;
+
+public class KlientiTest {
+	public static void main(String args[]) {
+		Klienti k = new Klienti("127.0.0.1");
+		k.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		k.fillo();
+	}
+}
